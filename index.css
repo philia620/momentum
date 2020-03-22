@@ -2,10 +2,9 @@ body {
     background-color: gold;
 }
 
-h1 {
+body {
     font-size: 50px;
     color: white;
-    transition: color 0.5s ease-in-out;
 }
 
 .btn {
