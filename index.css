@@ -1,0 +1,17 @@
+body {
+    background-color: gold;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.clicked {
+    color: #34495e;
+}
