@@ -15,8 +15,6 @@ function deleteDoTo(event) {
     });
     toDos = cleanToDos;
     saveToDos(toDos);
-    console.log("delete fn done");
-    console.log(event);
 }
 
 function saveToDos() {
@@ -50,9 +48,7 @@ function handleSubmit(event) {
     event.preventDefault();
     const currentValue = toDoInput.value;
     paintToDo(currentValue);
-    console.log(currentValue);
     toDoInput.value = "";
-    console.log("done");
 }
 
 function loadToDos() {
