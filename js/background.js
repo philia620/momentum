@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_COUNT = 4;
+const IMG_COUNT = 1;
 
 
 function paintImage(imgNumber) {
