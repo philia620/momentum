@@ -30,7 +30,7 @@ function paintToDo(text) {
     delBtn.classList.add("btn-secondary", "btn");
     delBtn.addEventListener("mousedown", deleteDoTo);
 
-    delBtn.innerText = "DEL";
+    delBtn.innerText = "✓";
     span.innerText = text;
     li.appendChild(span);
     li.appendChild(delBtn);

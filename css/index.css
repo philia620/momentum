@@ -5,9 +5,13 @@ body {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
+
 #time {
     font-size: 150px;
-    margin-top:300px;
+    margin-top:250px;
 }
 
 #greeting-sentance {
@@ -16,6 +20,9 @@ body {
 
 .btn {
     cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 10px;
 }
 
 .clicked {
@@ -52,4 +59,11 @@ body {
 .input-group {
     width: 600px;
     margin-top: 100px;
+}
+
+.js-weather {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
 }
